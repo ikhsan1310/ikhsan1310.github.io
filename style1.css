@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* .header {
+	background:url(img/fflogo.jpg);
+    background-color: lightgreen;
+    height: 150px;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+body {
+	font-family:'Oswald', sans-serif;
+}
+/*Navbar*/
+nav {
+	background-color:rgb(20,20,20);
+	display:flex;
+	justify-content: space-around;
+	padding: 20px 0;
+	color: rgb(224, 28, 2);
+}
+
+nav .logo {
+	font-family: 'Bangers', cursive;
+	letter-spacing: 2px;	
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	width: 40%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration:none;
+	letter-spacing: 2px;
+	font-weight: bold; 
+}
+
+nav ul li a:hover {
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: rgb(224, 28, 2);
+	font-weight: bold;
+}
+
+nav ul li a.active {
+	font-size:1.3em;
+	color: rgb(224, 28, 2);
+	font-weight: bold;
+}
+
